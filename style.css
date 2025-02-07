@@ -1,0 +1,21 @@
+/* style.css */
+
+body {
+	background-color: rgb(37,37,37);
+		overflow: hidden; /* Prevent scrollbars */
+		margin: 0;        /* Remove browser default margin */
+  }
+  
+  #horizontal {
+	  display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #vertical {
+	  margin: 20px auto; 
+	  position: absolute; 
+	  top: 50%; 
+	  transform: translateY(-50%);
+  }
+   
